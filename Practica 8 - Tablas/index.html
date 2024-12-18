@@ -1,0 +1,95 @@
+<!-- TABLAS.HTML -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+    <table></table> --Definir tabla
+    <tr></tr> --Crear Filas
+    <th></th> --Presentar el emcabezado de c/columna
+    <td></td> --Presentar los datos de c/columna
+    Esctructra Basica de la tabla: 3 Secciones
+    <thead>
+    <tbody>
+    <tfoot>
+        Atributos: Usan en seccion th y td
+        colspan: Permite unir vasrias columnas
+        rowspan: Permite unir varias filas
+    -->   
+    <p>Se necesita presentar en pantalla los proyectos grupales de 3 distintas areas, para el area de informatica se tiene un grupo de 3 estudiantes, para el grupo de arquitectura de 4 estudiantes y pra el grupo de medicina 2 estudiantes. Presentar en pantalla los campos de cada grupo, integrantes,nombre del proyecto,carrera e imagen referencial,teniendo en cuenta que los proyectos son de Realida Aumentada, Construccion de un Eco Parque y Biomedicina con Celulas Madre respectivamente.</p>
+    <!-- Crear nuestra tabla-->
+     <table border="5" sd>
+        <!--Cabeza de la Tabla-->
+        <thead>
+            <!--Fila 1-->
+            <th colspan="5">Proyectos</th>
+            <!--Fila 2-->
+            <tr>
+                <th>Grupo #</th>
+                <th>Integrantes</th>
+                <th>Nombres del Proyecto</th>
+                <th>Carrera</th>
+                <th>Imagen Referencial</th>
+            </tr>
+        </thead>
+        <!--Cuerpo de la Tabla-->
+        <tbody>
+            <!--Fila 3-->
+            <tr>
+                <td rowspan="3">Grupo 1</td>
+                <td>John Gonzalez</td>                
+                <td rowspan="3">Realidad Aumentada</td>
+                <td rowspan="3">Informatica</td>
+                <td rowspan="3"><img src="https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/0FCD/production/_91954040_0feb7a56-f8c1-45e1-a412-a7edf8141f4e.jpg.webp" width="200px"></td>
+            </tr>
+            <!--Fila 4 Integrante 2 de Informatica-->
+            <tr>
+                <td>Patricio </td>
+            </tr>
+            <!--Fila 5 Integrante 3 de Informatica-->
+            <tr>
+                <td>Patricio </td>
+            </tr>
+            <!--Fila 6-->
+            <tr>
+                <td rowspan="4">Grupo 2</td>
+                <td>Alexandra Pineda</td>
+                <td rowspan="4">Construccion de un Eco Parque</td>
+                <td rowspan="4">Arquitectura</td>
+                <td rowspan="4"><img src="https://www.revistagente.com/wp-content/uploads/2024/02/Nutria-de-ecoparque.jpg.webp" width="200px"></td>
+            </tr>
+            <!--Fila 7 Integrante 2 de Arquitectura-->
+            <tr>
+                <td>Freddy Carrasco</td>
+            </tr>
+            <!--Fila 8 Integrante 3 de Arquitectura-->
+            <tr>
+                <td>Patricio Pintado</td>
+            </tr>
+            <!--Fila 9 Integrante 4 de Arquitectura-->
+            <tr>
+                <td>Alexandra Sarmiento</td>
+            </tr>
+            <!--Fila 10 Grupo de Medicina de 2 Estudiantes-->
+            <tr>
+                <td rowspan="2">Grupo 3</td>
+                <td>Pablo Bravo</td>
+                <td rowspan="2">Biomedicina con Celulas Madre</td>
+                <td rowspan="2">Medicina</td>
+                <td rowspan="2"><img src="https://www.clinicadermatologicainternacional.com/wp-content/uploads/2024/04/celulas-madre-1024x614-1-1200x900.webp" alt="" width="200px"></td>
+            </tr>
+            <!--Fila 10 Integrante 2 de Medicina-->
+            <tr>
+                <td>Valeria Silva</td>
+            </tr>
+        </tbody>
+        <!--Pie de la Tabla-->
+        <tfoot></tfoot>
+     </table>
+</body>
+</html>
