@@ -1,0 +1,28 @@
+h1 {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: solid brown;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    color: brown;
+    text-decoration: underline;
+    text-align: left;
+}
+
+div {
+    color: black;
+    font-size: 25px;
+    margin-inline: 130px;
+    line-height: 5px;
+}
+
+p {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    line-height: 35px;
+}
