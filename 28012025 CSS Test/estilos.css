@@ -1,0 +1,67 @@
+:root {
+    --orange: #ff4400a6;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    background-color: brown;
+    color: white;
+    font-family: serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    color: brown;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+p span {
+    color: black;
+    font-family: serif;
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+
+fieldset {
+    border-color: var(--orange);
+}
+
+legend {
+    background-color: var(--orange);
+}
+
+label {
+    color: brown;
+}
+
+input {
+    background-color: gray;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+input[type="radio"]:checked+label {
+    background-color: var(--orange);
+}
+
+button {
+    border: 1px brown;
+    color: white;
+    background-color: black;
+    width: fit-content;
+    padding: .25em;
+}
+
+input:invalid {
+    color: black;
+    background-color: red;
+}
